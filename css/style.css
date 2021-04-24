@@ -8,7 +8,14 @@ h2
 {color:rgb(24, 37, 11);
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 height:auto;
-width: auto;}
+width: auto;
+margin-bottom: 0pt;
+
+}
+*{
+    margin: 0.1em;
+    padding: 0.1em;
+  }
 li
 {font-weight:bold;
     display: inline-block;
@@ -19,12 +26,12 @@ li
 .container {
     display: flex;
     align-items:flex-start;
-    justify-content:flex-start
+    justify-content:flex-end;
 }
 .image {
     flex-basis: 4em;
 }
 .text {
     font-size:1.1em;
-    padding-left: 1.1em;
+    padding:auto;
 }
