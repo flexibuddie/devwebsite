@@ -1,4 +1,10 @@
 body
-{background-color:rgb(129, 191, 241);
+{background-color:rgb(140, 243, 217);
 color:rgb(18, 51, 36);
+font-family:Serif;
+}
+
+h2
+{color:rgb(24, 37, 11);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
