@@ -16,11 +16,19 @@ margin-bottom: -0.2em;
     margin: 0.1em;
     padding: 0.1em;
   }
-li
-{font-weight:bold;
-    display: inline-block;
+/* The navbar links */
+nav {
+    overflow: hidden;
+}
+/* The navbar links */
+nav a{ 
+    font-weight:bold;
+    color:rgb(53, 53, 221);
     text-align: center;
     font-size: 0.8m;
+}
+li{
+    display: inline-block;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container {
