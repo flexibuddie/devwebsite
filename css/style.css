@@ -2,16 +2,17 @@ body
 {background-color:rgb(140, 243, 217);
 color:rgb(18, 51, 36);
 font-family:Serif;
+overflow: hidden;
 }
 
-h2
+h3
 {color:rgb(17, 34, 58);
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 height:auto;
 width: auto;
 margin-bottom: -0.2em;
-
 }
+
 *{
     margin: 0.1em;
     padding: 0.1em;
@@ -31,11 +32,7 @@ li{
     display: inline-block;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.container {
-    display: flex;
-    align-items:flex-start;
-    justify-content:flex-end;
-}
+
 .image {
     flex-basis: 4em;
 }
